@@ -12,7 +12,7 @@
 <script setup lang="ts">
 import { computed, reactive, ref } from "vue";
 import type ProductInterface from "@/types/product.interfaces";
-import CarProduct from "@/components/CarProduct.vue";
+import CarProduct from "@/components/CarProduct/CarProduct.vue";
 
 const productBerline = reactive<ProductInterface>({
   available: true,
